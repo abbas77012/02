@@ -3,7 +3,7 @@ const https = require('https');
 const httpProxy = require('http-proxy');
 
 const TARGET_URL = process.env.TARGET_URL || 'https://pars77.store';
-const TARGET_SNI = 'best-e4ceb6a8d5hfewcv.uaenorth-01.azurewebsites.net';
+const TARGET_SNI = 'https://pars77.store';
 
 console.log(`Target: ${TARGET_URL}`);
 
