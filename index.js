@@ -2,8 +2,8 @@ const http = require('http');
 const https = require('https');
 const httpProxy = require('http-proxy');
 
-const TARGET_URL = process.env.TARGET_URL || 'https://iran1405.lifestyle:443';
-const TARGET_SNI = 'best-e4ceb6a8d5hfewcv.uaenorth-01.azurewebsites.net';
+const TARGET_URL = process.env.TARGET_URL || 'https://iran1405.lifestyle';
+const TARGET_SNI = 'iran1405.lifestyle';
 
 console.log(`Target: ${TARGET_URL}`);
 
